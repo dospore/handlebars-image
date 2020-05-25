@@ -1,3 +1,2 @@
 #!/bin/bash
-
 docker build --no-cache=true --build-arg D=${DATABASE_URL} -t mcv-website -f ../Dockerfile .
